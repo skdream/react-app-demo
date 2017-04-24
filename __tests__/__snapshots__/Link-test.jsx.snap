@@ -1,0 +1,104 @@
+exports[`test 当hover时改变class 1`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  车巴达
+</a>
+`;
+
+exports[`test 当hover时改变class 2`] = `
+<a
+  className="hovered"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  车巴达
+</a>
+`;
+
+exports[`test 当hover时改变class 3`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  车巴达
+</a>
+`;
+
+exports[`test 正确渲染 1`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+   车巴达 
+</a>
+`;
+
+exports[`test 没有设置page时渲染为一个锚点 1`] = `
+<a
+  className="normal"
+  href="#"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}>
+  车巴达
+</a>
+`;
+
+exports[`当hover时改变class 1`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  车巴达
+</a>
+`;
+
+exports[`当hover时改变class 2`] = `
+<a
+  className="hovered"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  车巴达
+</a>
+`;
+
+exports[`当hover时改变class 3`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  车巴达
+</a>
+`;
+
+exports[`正确渲染 1`] = `
+<a
+  className="normal"
+  href="http://www.chebada.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+   车巴达 
+</a>
+`;
+
+exports[`没有设置page时渲染为一个锚点 1`] = `
+<a
+  className="normal"
+  href="#"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  车巴达
+</a>
+`;
