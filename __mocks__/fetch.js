@@ -5,7 +5,7 @@ const actions = {
 	"GetAnnounce":["公告公告公告","公告2公告2公告2"]
 }
 
-export default function request(params){
+export default function fetch(params){
 
 
 	return new Promise((resolve, reject) => {
@@ -17,20 +17,20 @@ export default function request(params){
 
 
 
-	    process.nextTick(
-	      () => res ? resolve(res) : reject({
-	        error: 'action with ' + actionType + ' not found.',
-	      })
-	    );
+	    // process.nextTick(
+	    //   () => res ? resolve(res) : reject({
+	    //     error: 'action with ' + actionType + ' not found.',
+	    //   })
+	    // );
 
 
 
 
-		// if(res){
-		// 	resolve(res)
-		// }else{
-		// 	reject('not found')
-		// }
+		if(res){
+			resolve(res)
+		}else{
+			reject('not found')
+		}
 	})
 }
 

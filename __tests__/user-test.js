@@ -2,7 +2,10 @@
 
 'use strict';
 
-jest.mock('request');
+// jest.mock('../src/request');
+jest.mock('../src/request');
+
+
 
 import * as user from 'user';
 

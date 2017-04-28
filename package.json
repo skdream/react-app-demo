@@ -71,8 +71,7 @@
     "moduleDirectories": [
       "node_modules",
       "bower_components",
-      "src",
-      "__mocks__"
+      "src"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
@@ -102,7 +101,6 @@
       "react-app"
     ]
   },
-  "proxy": "http://m.chebada.com",
   "eslintConfig": {
     "extends": "react-app"
   }

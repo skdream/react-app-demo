@@ -17,7 +17,7 @@ function parseJSON(response) {
  * @param params
  * @returns {promise}
  */
-export default function request(params){
+export default function fetch(params){
 
 	params = params || {}
 	return new Promise((resolve, reject) => {
