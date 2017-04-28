@@ -65,9 +65,6 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
-    "modulePaths": [
-      "/src"
-    ],
     "moduleDirectories": [
       "node_modules",
       "bower_components",
